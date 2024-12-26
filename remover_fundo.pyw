@@ -9,7 +9,7 @@ arquivo_selecionado = filedialog.askopenfilename()
 janela.destroy()
 
 imagem_original = arquivo_selecionado
-nova_imagem = r'C:\Users\dylan\Downloads\teste.png'
+nova_imagem = r'C:\Users\seu_usuario\Downloads\teste.png'
 
 arquivo = Image.open(imagem_original)
 imagem = remove(arquivo)
